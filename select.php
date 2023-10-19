@@ -35,6 +35,6 @@
         ?>
 
         <br>
-        <a href="admin_menu.php">Return to profile</a>
+        <a href="user_profile.php">Return to profile</a>
     </body>
 </html>

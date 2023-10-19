@@ -29,7 +29,7 @@ if ($conn->query($sql) === TRUE) {
     $data = $newEmail;
     echo "New record created successfully";
     echo "<br>";
-    echo '<a href="admin_menu.php">Continue to website.</a>';
+    echo '<a href="user_profile.php">Continue to website.</a>';
     echo "<script>console.log('User: " . json_encode($data) . "added.' );</script>";
 
 } else {

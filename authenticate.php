@@ -27,7 +27,7 @@ if ($result->num_rows > 0) {
         $validUser = $row["username"];
         $validPass = $row["password"];
             if ($user === $validUser && $pass === $validPass) {
-            header('Location: admin_menu.php');
+            header('Location: user_profile.php');
 }
     }
 } else {
