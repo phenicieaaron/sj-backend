@@ -1,6 +1,6 @@
-create database officemin;
+create database recipes;
 
-use officemin;
+use recipes;
 
 create table users (
 id int primary key auto_increment, 
