@@ -13,7 +13,7 @@ session_start();
         <hr/>
        
         <br>
-        <a href='admin_menu.php'>Profile</a>
+        <a href='user_profile.php'>Profile</a>
         <a href='login.php'>Login</a>
     </body>
 </html>

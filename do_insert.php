@@ -30,7 +30,7 @@ VALUES ('$newDish', '$newProtein', '$newDiff', '$newLink')";
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
     echo "<br>";
-    echo '<a href="admin_menu.php">Return to admin menu</a>';
+    echo '<a href="user_profile.php">Return to user profile</a>';
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
